@@ -2,53 +2,28 @@
 
 [![Documentation Status](https://readthedocs.org/projects/reproducible-analysis-workshop/badge/?version=latest)](http://reproducible-analysis-workshop.readthedocs.io/en/latest/?badge=latest)
 
-This workshop was part of the [Open Science Tools, Data & Technologies for Efficient Ecological & Evolutionary Research Symposium](https://nioo.knaw.nl/en/open-science-tools), organized by NIOO-KNAW and DANS-KNAW on 7 & 8 December 2017 at the [Amsterdam Science Park](https://www.amsterdamsciencepark.nl/about-amsterdam-science-park/profile/).
+This workshop is for the PAG 30 conference held in San Diego, CA on Jan. 13, 2023 organized by [Karl Fetter](http://plantcompgenomics.com/people-karl-fetter/) and [Jill Wegrzyn](http://plantcompgenomics.com/people-jill-wegrzyn/). Cynthia Webster, Vidya Vuruputoor, Akriti Bhattarai, and Sumaira Zaman were essential in building EASEL and preparing for the workshop. 
 
-Transparency, open sharing, and reproducibility are core values of science, but not always part of daily practice. This workshop provided an overview of current status in reproducible analysis in order to provide transparency in research. The workshop covered methodological topics (such as the use of the Open Science Framework and reporting guidelines) as well as software tools (such as `Git`, `Docker`, `RMarkdown` / `knitr` and `Jupyter`). Going beyond simple listing and presentations, the workshop focused on hands-on skill building, with exercises and tutorials covering most of the software aspects. Specifically, the agenda of the workshop was the following:
+Access to the tools, methods, and expertise for creating refernce genomes is increasing and becoming a standard workflow in many fields of biology. Reference genomes are highly contiguous assemblies of DNA sequence data that is often derived from a combination of long-read, short-read, and chromosome confirmation technologies. Genome annotation provides the essential context for DNA sequences to make them usable for a vareity of genetic and genomic applicaitons. Gene annotation programs struggle with predicting less common gene structures (e.g. long introns or micro-exons), finding the preferred TIS location, and distinguishing pseudogenes. EASEL was developed to enhance the prediciton accuracy of gene annotations in eukaryotic organsisms and to lower the barrier to access the computational power of the method. 
 
-- _08:40 - 09:00_ _**Coffee break**_
+This workshop is focused on introducing new users to the EASEL method and how it is deployed with nextflow. We will discuss the design of the method, benchmarking results of model organism genomes, and how to use the method during the workshop. Participants will use EASEL to annotate [chromosome 1](https://www.ncbi.nlm.nih.gov/genome/?term=txid4023[Organism:exp]) of the Boxelder (*Acer negundo*) described by [Susan et al. 2022](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.15657). The specific agenda is as follows:
 
-- _09:00 - 09:20_ **Introduction** (_Setup_)
+- _4:00 - 4:30_ **Introduction** 
 
-
-- _09:20 - 10:10_ **Reproducible Research** (_Current state in Reproducible analysis and Research Transparency_)
-- _10:10 - 11:00_ **Transparent Research** (_Overview of the Transparency and Openness Promotion (TOP) Guidelines (Center for Open Science)_)
-
-
-
-- _11:00 - 11:30_ _**Coffee break**_
+    - **Genome Annotation Approaches** (_Current state in Genome Annotation_)
+    - **The EASEL Approach** (_How EASEL differs from other pipelines_)
+    - **Benchmarking EASEL with model reference genomes** (Results from benchmarking)
 
 
+- _4:30 - 4:45_ **Setup Computing Resources** (_Prepare yourselves!_)
 
-- _11:30 - 12:15_ **Reproducibility in practice** (_Looking at versioning and standardization_)
-- _12:15 - 13:00_ **Jupyter** (_Using the `Jupyter` environment; languages supported and live documents._)
+- _4:45 - 5:30_ **Use EASEL with nexflow to annotate a Boxelder chromosome**
 
-
-
-- _13:00 - 14:00_ _**Lunch break**_
-
-
-
-- _14:00 - 14:45_ **R for Reproducible Scientific Analysis** (_Writing modular code and best practices for using R for data analysis within Jupyter._)
-- _14:45 - 15:30_ **R for Reproducible Scientific Analysis** (_`RMarkdown` in RStudio and `knitr`_)
-
-
-
-- _15:30 - 16:00_ _**Coffee break**_
-
-
-
-- _16:00 - 16:45_ **Versioning with Git** (_Version control. Open collaborative coding._)
-- _16:45 - 17:30_ **Docker** (_Putting it all together._)
-
-
-
-- _17:30 - 18:00_ **Closing** (_Discussion_)
-
+- _5:30 - 6:10_ **Questions \& Troubleshooting**
 
 _Venue_
 
-The workshop will take place at the Amsterdam Science Park, building CWI, Room Euler A.
+The workshop will take place at the Town \& Country Conference Center in the Pacific H-I room (2nd Floor) from 4:00 PM to 6:10 PM.
 
 _The rendered site is available [here](http://reproducible-analysis-workshop.readthedocs.io)_
 
