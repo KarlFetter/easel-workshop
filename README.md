@@ -1,4 +1,4 @@
-# Reproducible analysis and Research Transparency
+# EASEL (Effecient, Accurate, Scalable, Eukarytotic modeLs)
 
 [![Documentation Status](https://readthedocs.org/projects/reproducible-analysis-workshop/badge/?version=latest)](http://reproducible-analysis-workshop.readthedocs.io/en/latest/?badge=latest)
 
