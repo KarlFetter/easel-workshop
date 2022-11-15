@@ -27,6 +27,9 @@ The workshop will take place at the Town \& Country Conference Center in the Pac
 
 _The rendered site is available [here](http://reproducible-analysis-workshop.readthedocs.io)_
 
+
+Put a picture of the EASEL workflow here?
+
 ## License
 
 ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
