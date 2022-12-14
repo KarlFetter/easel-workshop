@@ -1,0 +1,3 @@
+git filter-branch --force --index-filter \
+  'git rm -r --cached --ignore-unmatch GCA_025594385.1_ASM2559438v1_genomic.gff' \
+  --prune-empty --tag-name-filter cat -- --all
